@@ -7,12 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Friday's Quiz Challenge!</h1>
+    <header> 
+    <h1>Quiz Challenge!</h1>
+</header>
     <form>
-        <header>
-            <h1>Quiz Challenge</h1>
-        </header>
-        <form>
+
+        <label>
             <label for="fname"> What is your first name?</label>
                  <input type="text" name="fname" placeholder="Enter your first name" required><br>
                  
@@ -23,32 +23,44 @@
                  <input for="email" name="email" placeholder="johndoe@gmail.com"><br>
                  
             <label for="phone">Phone number:</label>
-                <input type="text" name="phonenumber" placeholder="(401)123-1234"></br>
+            <input type="tel" name="phonenumber" placeholder="(401)123-1234"></br>
                 
             <label for="birthday">When is your birthday:</label>
                  <input type="date" name="birthday"></br>
            
-           <label for="radio">Do you prefer cats or dogs?</label>
-                 <input type="radio" value="Cats" value="Dogs"></br>
-                 
-           <label for="beverage"> What beverage do you enjoy in the morning? </label>
+           <label for="radio"> What pet do you prefer?</label><br>
+                 <input type="radio" id="cats" name="pet" value="Cats">
+                    <label for="radio">Cats</label><br>
+                 <input type="radio" id="dogs" name="pet" value="Dogs">
+                    <label for="dogs">Dogs</label><br>
+                 <input type="radio" id="snakes" name="pet" value="Snakes">
+                    <label for="Snakes">Snakes</label><br>  
+                 <input type="radio" id="lizards" name="pet" value="Lizards">
+                    <label for="lizards">Lizards</label><br>
+                 <input type="radio" id="none" name="pet" value="none">
+                    <label for="none">None</label><br>
+
+           <label for="beverage"> What beverage do you enjoy in the morning? </label><br>
                 <input type="checkbox" id="option1" name="option1" value="Coffee">
-                   <label for="option1"> Coffee </label>
+                   <label for="option1"> Coffee </label><br>
                 <input type="checkbox" id="option2" name="option2" value="Water">
-                   <label for="option2"> Water </label>
+                   <label for="option2"> Water </label><br>
                 <input type="checkbox" id="option3" name="option3" value="Iced Tea">
-                   <label for="option3"> Iced Tea </label>
+                   <label for="option3"> Iced Tea </label><br>
                 <input type="checkbox" id="option4" name="option4" value="Soda">
-                   <label for="option4"> Soda </label>
+                   <label for="option4"> Soda </label><br>
                 <input type="checkbox" id="option5" name="option5" value="Juice">
-                   <label for="option5"> Juice </label>
+                   <label for="option5"> Juice </label><br>
                  
-            
-<label for="food">What's your favorite food and why?</label>
-<input type="textarea" placeholder="type your answer here...">
+                    <label for="food">What's your favorite food and why?</label><br>
+                    <input type="textarea" placeholder="type your answer here..."><br>
 
+                    <label for="favcolor">Select your favorite color:</label>
+                        <input type="color" id="favcolor" name="favcolor"> <br>
 
-
+                                        <label for="favnumber">Select your favorite number:</label>
+                                         <input type="number" id="favnumber" name="favnumber"> <br>
+                                         <input type="submit">
 
     </form>
 </body>
