@@ -8,8 +8,8 @@
 </head>
 
 <body>
-    <header>
-        <h1>Quiz Challenge</h1>
+    <header> 
+    <h1> Quiz Challenge <h1>
     </header>
     <form>
         <label for="fname">What is your first name?</label>
@@ -24,6 +24,8 @@
              <input type="date" name="birthday"></br>
         <label for="phone">Phone number:</label>
             <input type="text" name="phonenumber" placeholder="(401)123-1234"></br>
+            <label for="color" name="color">
+            <input type="checkbox" 
     </form>
 </body>
 </html>
