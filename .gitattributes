@@ -12,20 +12,42 @@
     <h1> Quiz Challenge <h1>
     </header>
     <form>
-        <label for="fname">What is your first name?</label>
-             <input type="text" name="fname" placeholder="Enter your name" required><br>
-        <label for="lname">What is your last name?</label>
-             <input type="text" name="lname"placeholder="Enter your last name" required><br>
-         <label for="email">What is your email address?</label>
+        <label for="fname"> What is your first name?</label>
+             <input type="text" name="fname" placeholder="Enter your first name" required><br>
+             
+        <label for="lname"> What is your last name?</label>
+             <input type="text" name="lname" placeholder="Enter your last name" required><br>
+             
+        <label for="email"> What is your email address?</label>
              <input for="email" name="email" placeholder="johndoe@gmail.com"><br>
-        <label for="button">Did you prefer cats or dogs?</label>
-             <input type="radio" value="yes" value="no"></br>
-        <label for="birthday">When is your birthday:</label>
-             <input type="date" name="birthday"></br>
+             
         <label for="phone">Phone number:</label>
             <input type="text" name="phonenumber" placeholder="(401)123-1234"></br>
+<<<<<<< HEAD
             <label for="color" name="color">
             <input type="checkbox" 
+=======
+            
+        <label for="birthday">When is your birthday:</label>
+             <input type="date" name="birthday"></br>
+       
+       <label for="radio">Do you prefer cats or dogs?</label>
+             <input type="radio" value="Cats" value="Dogs"></br>
+             
+       <label for="beverage"> What beverage do you enjoy in the morning? </label>
+            <input type="checkbox" id="option1" name="option1" value="Coffee">
+               <label for="option1"> Coffee </label>
+            <input type="checkbox" id="option2" name="option2" value="Water">
+               <label for="option2"> Water </label>
+            <input type="checkbox" id="option3" name="option3" value="Iced Tea">
+               <label for="option3"> Iced Tea </label>
+            <input type="checkbox" id="option4" name="option4" value="Soda">
+               <label for="option4"> Soda </label>
+            <input type="checkbox" id="option5" name="option5" value="Juice">
+               <label for="option5"> Juice </label>
+             
+        
+>>>>>>> 3e18ea775b3de2ee243139149069ab31e692ae5c
     </form>
 </body>
 </html>
